@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="MyTest"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\APP\;CMake Files\OrderBook\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\usr\;CMake Files\..\..\..\..\..\usr\local\;CMake Files\..\..\..\..\..\usr\local\lib\;CMake Files\..\..\..\..\..\usr\local\lib\cmake\;CMake Files\..\..\..\..\..\usr\local\lib\cmake\Boost-1.71.0\;CMake Files\..\..\..\..\..\usr\local\lib\cmake\boost_headers-1.71.0\;CMake Files\..\..\..\..\..\usr\local\lib\cmake\boost_program_options-1.71.0\;CMake Files\MyTest\;CMake Files\MyTest\lib\;CMake Files\MyTest\lib\googletest\;CMake Files\MyTest\lib\googletest\cmake\;CMake Files\MyTest\tests\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/wen/Desktop/CPP/Course Project/cmake-build-debug/MyTest"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/Users/wen/anaconda3/bin/make -j8 -f &quot;/Users/wen/Desktop/CPP/Course\ Project/cmake-build-debug/MyTest/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/Users/wen/anaconda3/bin/make -j8 -f &quot;/Users/wen/Desktop/CPP/Course\ Project/cmake-build-debug/MyTest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/Users/wen/anaconda3/bin/make -j8 -f &quot;/Users/wen/Desktop/CPP/Course\ Project/cmake-build-debug/MyTest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/Users/wen/anaconda3/bin/make -j8 -f &quot;/Users/wen/Desktop/CPP/Course\ Project/cmake-build-debug/MyTest/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gtest_main">
+				<Option output="/Users/wen/Desktop/CPP/Course Project/cmake-build-debug/lib/libgtest_maind.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/wen/Desktop/CPP/Course Project/cmake-build-debug/MyTest/lib/googletest"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/wen/Desktop/CPP/Course Project/OrderBook"/>
+					<Add directory="/Users/wen/Desktop/CPP/Course Project/APP"/>
+					<Add directory="/Users/wen/Desktop/CPP/Course Project/MyTest/lib/googletest/include"/>
+					<Add directory="/Users/wen/Desktop/CPP/Course Project/MyTest/lib/googletest"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/Users/wen/anaconda3/bin/make -j8 -f &quot;/Users/wen/Desktop/CPP/Course\ Project/cmake-build-debug/MyTest/lib/googletest/Makefile&quot;  VERBOSE=1 gtest_main"/>
+					<CompileFile command="/Users/wen/anaconda3/bin/make -j8 -f &quot;/Users/wen/Desktop/CPP/Course\ Project/cmake-build-debug/MyTest/lib/googletest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/Users/wen/anaconda3/bin/make -j8 -f &quot;/Users/wen/Desktop/CPP/Course\ Project/cmake-build-debug/MyTest/lib/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/Users/wen/anaconda3/bin/make -j8 -f &quot;/Users/wen/Desktop/CPP/Course\ Project/cmake-build-debug/MyTest/lib/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gtest_main/fast">
+				<Option output="/Users/wen/Desktop/CPP/Course Project/cmake-build-debug/lib/libgtest_maind.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/wen/Desktop/CPP/Course Project/cmake-build-debug/MyTest/lib/googletest"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/wen/Desktop/CPP/Course Project/OrderBook"/>
+					<Add directory="/Users/wen/Desktop/CPP/Course Project/APP"/>
+					<Add directory="/Users/wen/Desktop/CPP/Course Project/MyTest/lib/googletest/include"/>
+					<Add directory="/Users/wen/Desktop/CPP/Course Project/MyTest/lib/googletest"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/Users/wen/anaconda3/bin/make -j8 -f &quot;/Users/wen/Desktop/CPP/Course\ Project/cmake-build-debug/MyTest/lib/googletest/Makefile&quot;  VERBOSE=1 gtest_main/fast"/>
+					<CompileFile command="/Users/wen/anaconda3/bin/make -j8 -f &quot;/Users/wen/Desktop/CPP/Course\ Project/cmake-build-debug/MyTest/lib/googletest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/Users/wen/anaconda3/bin/make -j8 -f &quot;/Users/wen/Desktop/CPP/Course\ Project/cmake-build-debug/MyTest/lib/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/Users/wen/anaconda3/bin/make -j8 -f &quot;/Users/wen/Desktop/CPP/Course\ Project/cmake-build-debug/MyTest/lib/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gtest">
+				<Option output="/Users/wen/Desktop/CPP/Course Project/cmake-build-debug/lib/libgtestd.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/wen/Desktop/CPP/Course Project/cmake-build-debug/MyTest/lib/googletest"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/wen/Desktop/CPP/Course Project/OrderBook"/>
+					<Add directory="/Users/wen/Desktop/CPP/Course Project/APP"/>
+					<Add directory="/Users/wen/Desktop/CPP/Course Project/MyTest/lib/googletest/include"/>
+					<Add directory="/Users/wen/Desktop/CPP/Course Project/MyTest/lib/googletest"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/Users/wen/anaconda3/bin/make -j8 -f &quot;/Users/wen/Desktop/CPP/Course\ Project/cmake-build-debug/MyTest/lib/googletest/Makefile&quot;  VERBOSE=1 gtest"/>
+					<CompileFile command="/Users/wen/anaconda3/bin/make -j8 -f &quot;/Users/wen/Desktop/CPP/Course\ Project/cmake-build-debug/MyTest/lib/googletest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/Users/wen/anaconda3/bin/make -j8 -f &quot;/Users/wen/Desktop/CPP/Course\ Project/cmake-build-debug/MyTest/lib/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/Users/wen/anaconda3/bin/make -j8 -f &quot;/Users/wen/Desktop/CPP/Course\ Project/cmake-build-debug/MyTest/lib/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gtest/fast">
+				<Option output="/Users/wen/Desktop/CPP/Course Project/cmake-build-debug/lib/libgtestd.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/wen/Desktop/CPP/Course Project/cmake-build-debug/MyTest/lib/googletest"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/wen/Desktop/CPP/Course Project/OrderBook"/>
+					<Add directory="/Users/wen/Desktop/CPP/Course Project/APP"/>
+					<Add directory="/Users/wen/Desktop/CPP/Course Project/MyTest/lib/googletest/include"/>
+					<Add directory="/Users/wen/Desktop/CPP/Course Project/MyTest/lib/googletest"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/Users/wen/anaconda3/bin/make -j8 -f &quot;/Users/wen/Desktop/CPP/Course\ Project/cmake-build-debug/MyTest/lib/googletest/Makefile&quot;  VERBOSE=1 gtest/fast"/>
+					<CompileFile command="/Users/wen/anaconda3/bin/make -j8 -f &quot;/Users/wen/Desktop/CPP/Course\ Project/cmake-build-debug/MyTest/lib/googletest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/Users/wen/anaconda3/bin/make -j8 -f &quot;/Users/wen/Desktop/CPP/Course\ Project/cmake-build-debug/MyTest/lib/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/Users/wen/anaconda3/bin/make -j8 -f &quot;/Users/wen/Desktop/CPP/Course\ Project/cmake-build-debug/MyTest/lib/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="RunTests">
+				<Option output="/Users/wen/Desktop/CPP/Course Project/cmake-build-debug/MyTest/tests/RunTests" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/wen/Desktop/CPP/Course Project/cmake-build-debug/MyTest/tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DBOOST_PROGRAM_OPTIONS_DYN_LINK"/>
+					<Add option="-DBOOST_ALL_NO_LIB"/>
+					<Add directory="/Users/wen/Desktop/CPP/Course Project/OrderBook"/>
+					<Add directory="/Users/wen/Desktop/CPP/Course Project/APP"/>
+					<Add directory="/Users/wen/Desktop/CPP/Course Project/MyTest/tests/$gtest_SOURCE_DIR"/>
+					<Add directory="/Users/wen/Desktop/CPP/Course Project/MyTest/lib/googletest/include"/>
+					<Add directory="/Users/wen/Desktop/CPP/Course Project/MyTest/lib/googletest"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/Users/wen/anaconda3/bin/make -j8 -f &quot;/Users/wen/Desktop/CPP/Course\ Project/cmake-build-debug/MyTest/tests/Makefile&quot;  VERBOSE=1 RunTests"/>
+					<CompileFile command="/Users/wen/anaconda3/bin/make -j8 -f &quot;/Users/wen/Desktop/CPP/Course\ Project/cmake-build-debug/MyTest/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/Users/wen/anaconda3/bin/make -j8 -f &quot;/Users/wen/Desktop/CPP/Course\ Project/cmake-build-debug/MyTest/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/Users/wen/anaconda3/bin/make -j8 -f &quot;/Users/wen/Desktop/CPP/Course\ Project/cmake-build-debug/MyTest/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="RunTests/fast">
+				<Option output="/Users/wen/Desktop/CPP/Course Project/cmake-build-debug/MyTest/tests/RunTests" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/wen/Desktop/CPP/Course Project/cmake-build-debug/MyTest/tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DBOOST_PROGRAM_OPTIONS_DYN_LINK"/>
+					<Add option="-DBOOST_ALL_NO_LIB"/>
+					<Add directory="/Users/wen/Desktop/CPP/Course Project/OrderBook"/>
+					<Add directory="/Users/wen/Desktop/CPP/Course Project/APP"/>
+					<Add directory="/Users/wen/Desktop/CPP/Course Project/MyTest/tests/$gtest_SOURCE_DIR"/>
+					<Add directory="/Users/wen/Desktop/CPP/Course Project/MyTest/lib/googletest/include"/>
+					<Add directory="/Users/wen/Desktop/CPP/Course Project/MyTest/lib/googletest"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/Users/wen/anaconda3/bin/make -j8 -f &quot;/Users/wen/Desktop/CPP/Course\ Project/cmake-build-debug/MyTest/tests/Makefile&quot;  VERBOSE=1 RunTests/fast"/>
+					<CompileFile command="/Users/wen/anaconda3/bin/make -j8 -f &quot;/Users/wen/Desktop/CPP/Course\ Project/cmake-build-debug/MyTest/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/Users/wen/anaconda3/bin/make -j8 -f &quot;/Users/wen/Desktop/CPP/Course\ Project/cmake-build-debug/MyTest/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/Users/wen/anaconda3/bin/make -j8 -f &quot;/Users/wen/Desktop/CPP/Course\ Project/cmake-build-debug/MyTest/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/wen/Desktop/CPP/Course Project/MyTest/lib/googletest/src/gtest-all.cc">
+			<Option target="gtest"/>
+		</Unit>
+		<Unit filename="/Users/wen/Desktop/CPP/Course Project/MyTest/lib/googletest/src/gtest_main.cc">
+			<Option target="gtest_main"/>
+		</Unit>
+		<Unit filename="/Users/wen/Desktop/CPP/Course Project/MyTest/tests/project_test.cpp">
+			<Option target="RunTests"/>
+		</Unit>
+		<Unit filename="/Users/wen/Desktop/CPP/Course Project/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/wen/Desktop/CPP/Course Project/APP/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\APP\"/>
+		</Unit>
+		<Unit filename="/Users/wen/Desktop/CPP/Course Project/OrderBook/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\OrderBook\"/>
+		</Unit>
+		<Unit filename="/Users/wen/Desktop/CPP/Course Project/../../../../../usr/local/lib/cmake/BoostDetectToolset-1.71.0.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/wen/Desktop/CPP/Course Project/../../../../../usr/local/lib/cmake/Boost-1.71.0/BoostConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\Boost-1.71.0\"/>
+		</Unit>
+		<Unit filename="/Users/wen/Desktop/CPP/Course Project/../../../../../usr/local/lib/cmake/Boost-1.71.0/BoostConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\Boost-1.71.0\"/>
+		</Unit>
+		<Unit filename="/Users/wen/Desktop/CPP/Course Project/../../../../../usr/local/lib/cmake/boost_headers-1.71.0/boost_headers-config-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\boost_headers-1.71.0\"/>
+		</Unit>
+		<Unit filename="/Users/wen/Desktop/CPP/Course Project/../../../../../usr/local/lib/cmake/boost_headers-1.71.0/boost_headers-config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\boost_headers-1.71.0\"/>
+		</Unit>
+		<Unit filename="/Users/wen/Desktop/CPP/Course Project/../../../../../usr/local/lib/cmake/boost_program_options-1.71.0/boost_program_options-config-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\boost_program_options-1.71.0\"/>
+		</Unit>
+		<Unit filename="/Users/wen/Desktop/CPP/Course Project/../../../../../usr/local/lib/cmake/boost_program_options-1.71.0/boost_program_options-config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\boost_program_options-1.71.0\"/>
+		</Unit>
+		<Unit filename="/Users/wen/Desktop/CPP/Course Project/../../../../../usr/local/lib/cmake/boost_program_options-1.71.0/libboost_program_options-variant-mt-shared.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\boost_program_options-1.71.0\"/>
+		</Unit>
+		<Unit filename="/Users/wen/Desktop/CPP/Course Project/../../../../../usr/local/lib/cmake/boost_program_options-1.71.0/libboost_program_options-variant-mt-static.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\boost_program_options-1.71.0\"/>
+		</Unit>
+		<Unit filename="/Users/wen/Desktop/CPP/Course Project/../../../../../usr/local/lib/cmake/boost_program_options-1.71.0/libboost_program_options-variant-shared.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\boost_program_options-1.71.0\"/>
+		</Unit>
+		<Unit filename="/Users/wen/Desktop/CPP/Course Project/../../../../../usr/local/lib/cmake/boost_program_options-1.71.0/libboost_program_options-variant-static.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\boost_program_options-1.71.0\"/>
+		</Unit>
+		<Unit filename="/Users/wen/Desktop/CPP/Course Project/MyTest/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\MyTest\"/>
+		</Unit>
+		<Unit filename="/Users/wen/Desktop/CPP/Course Project/MyTest/lib/googletest/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\MyTest\lib\googletest\"/>
+		</Unit>
+		<Unit filename="/Users/wen/Desktop/CPP/Course Project/MyTest/lib/googletest/cmake/internal_utils.cmake">
+			<Option virtualFolder="CMake Files\MyTest\lib\googletest\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/wen/Desktop/CPP/Course Project/MyTest/tests/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\MyTest\tests\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

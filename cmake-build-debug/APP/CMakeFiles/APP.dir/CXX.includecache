@@ -1,0 +1,48 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../OrderBook/BookUpdate.h
+cstring
+-
+
+../OrderBook/Order.h
+cstring
+-
+
+/Users/wen/Desktop/CPP/Course Project/APP/AppBase.h
+memory
+-
+queue
+-
+Order.h
+/Users/wen/Desktop/CPP/Course Project/APP/Order.h
+BookUpdate.h
+/Users/wen/Desktop/CPP/Course Project/APP/BookUpdate.h
+
+/Users/wen/Desktop/CPP/Course Project/APP/TradingStrategy.cpp
+TradingStrategy.h
+/Users/wen/Desktop/CPP/Course Project/APP/TradingStrategy.h
+
+/Users/wen/Desktop/CPP/Course Project/APP/TradingStrategy.h
+iostream
+-
+AppBase.h
+/Users/wen/Desktop/CPP/Course Project/APP/AppBase.h
+BookUpdate.h
+/Users/wen/Desktop/CPP/Course Project/APP/BookUpdate.h
+stack
+-
+Order.h
+/Users/wen/Desktop/CPP/Course Project/APP/Order.h
+map
+-
+unordered_map
+-
+string
+-
+

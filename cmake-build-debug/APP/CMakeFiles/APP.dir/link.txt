@@ -1,0 +1,2 @@
+/Library/Developer/CommandLineTools/usr/bin/ar qc libAPP.a  CMakeFiles/APP.dir/TradingStrategy.cpp.o CMakeFiles/APP.dir/OrderManager.cpp.o
+/Library/Developer/CommandLineTools/usr/bin/ranlib libAPP.a
